@@ -1,6 +1,6 @@
 cask "pretype" do
-  version "2.3.0"
-  sha256 "45e1965475c2f84e3e2396d823805f0661585ebf00da6868602958f1c3f359a4"
+  version "2.5.0"
+  sha256 "c79a87305a81e021e838473e84a95c13920fd134dc3daa5999ae42c0d8c73309"
 
   url "https://github.com/nikiomori/Pretype/releases/download/v#{version}/Pretype.app.zip"
   name "Pretype"
@@ -18,10 +18,9 @@ cask "pretype" do
   app "Pretype.app"
 
   caveats <<~EOS
-    Pretype releases are ad-hoc signed, not notarized:
-      - install with --no-quarantine to skip the Gatekeeper "Open Anyway" step
-      - re-grant Accessibility after each upgrade (System Settings -> Privacy
-        & Security -> Accessibility) — the code signature changes per release
+    Upgrading from 2.4.0 or earlier: re-grant Accessibility once (System
+    Settings -> Privacy & Security -> Accessibility). Those builds were ad-hoc
+    signed; 2.5.0 and later are notarized and keep the grant across upgrades.
 
     Downloaded models live in the shared Hugging Face cache
     (~/.cache/huggingface); remove them via Settings -> Model.
