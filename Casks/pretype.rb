@@ -1,6 +1,6 @@
 cask "pretype" do
-  version "2.5.0"
-  sha256 "c79a87305a81e021e838473e84a95c13920fd134dc3daa5999ae42c0d8c73309"
+  version "2.6.0"
+  sha256 "9ffa9e8ad0023c84b33b584c63b4d95841dc1f7c025de592fde290fccec1682a"
 
   url "https://github.com/nikiomori/Pretype/releases/download/v#{version}/Pretype.app.zip"
   name "Pretype"
