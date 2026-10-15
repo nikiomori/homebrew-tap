@@ -1,6 +1,6 @@
 cask "pretype" do
-  version "2.6.0"
-  sha256 "9ffa9e8ad0023c84b33b584c63b4d95841dc1f7c025de592fde290fccec1682a"
+  version "2.7.0"
+  sha256 "a5eaa8b9fcbfa031a6fb6f32320e8f80cac941bea52f1520464de2087a23f4eb"
 
   url "https://github.com/nikiomori/Pretype/releases/download/v#{version}/Pretype.app.zip"
   name "Pretype"
@@ -13,7 +13,7 @@ cask "pretype" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: ">= :tahoe"
 
   app "Pretype.app"
 
