@@ -1,6 +1,6 @@
 cask "refrain" do
-  version "0.1.0"
-  sha256 "faa044c08a732baf1d1749917d4bfe8a9ffddb08ed0e0c8c69b93c6e507544ab"
+  version "0.1.1"
+  sha256 "7f7f5ca954ff24e4e9b2c569137eae3eb3e06e9659dd7a8b664ccba068e8eef1"
 
   url "https://github.com/nikiomori/Refrain/releases/download/v#{version}/Refrain-#{version}.zip"
   name "Refrain"
