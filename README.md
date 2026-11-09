@@ -1,5 +1,13 @@
 # homebrew-tap
 
+Homebrew casks for [Kelp](https://github.com/nikiomori/kelp), a native macOS IDE for coding agents (macOS 14+):
+
+```bash
+brew install --cask nikiomori/tap/kelp
+```
+
+It also puts the `kelp` command on your PATH. Kelp updates itself; `make publish` in Kelp moves the cask to each release.
+
 Homebrew casks for [Pretype](https://github.com/nikiomori/Pretype) — local-LLM
 inline autocomplete for every macOS text field (Apple Silicon, macOS 14+).
 
