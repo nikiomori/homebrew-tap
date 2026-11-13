@@ -1,6 +1,6 @@
 cask "kelp" do
-  version "0.14.0"
-  sha256 "6125c9751169efa9764ef008da9ad86d354e1bcb3080113aa9e4c6661f21e9ca"
+  version "0.15.0"
+  sha256 "2ab8767e362c71bd42c236eb950de3956ed1c6c48b9158c9af89c8d091499781"
 
   url "https://github.com/nikiomori/kelp/releases/download/v#{version}/Kelp.dmg"
   name "Kelp"
